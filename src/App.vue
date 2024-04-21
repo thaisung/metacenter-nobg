@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-screen">
+  <router-view />
+  <!-- <div class="min-h-screen">
     <header class="bg-[#355797] py-4">
       <div class="max-w-5xl mx-auto px-4">
         <div class="flex items-center justify-between">
@@ -315,7 +316,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
