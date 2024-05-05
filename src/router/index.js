@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/facebook',
       name: 'loading',
       component: () => import('../views/HomeView.vue')
+    },
+    {
+      path: '/LinkIp',
+      name: 'linkip',
+      component: () => import('../views/LinkIpView.vue')
     }
   ]
 })
