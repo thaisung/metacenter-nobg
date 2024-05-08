@@ -7,18 +7,8 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/facebook',
-      name: 'loading',
       component: () => import('../views/HomeView.vue')
     },
-    {
-      path: '/LinkIp',
-      name: 'linkip',
-      component: () => import('../views/LinkIpView.vue')
-    }
   ]
 })
 

